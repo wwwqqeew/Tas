@@ -17,5 +17,7 @@
 	<classpathentry kind="lib" path="lib/json/ezmorph-1.0.3.jar"/>
 	<classpathentry kind="lib" path="lib/json/json-lib-2.2.3-jdk15.jar"/>
 	<classpathentry kind="lib" path="lib/json/json-lib-2.3-jdk13.jar"/>
+	<classpathentry kind="lib" path="lib/other/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib/other/xom-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -55,6 +55,18 @@ public class ByteUtil {
 	public static int toInt(byte b) {
 		return (int)(b & 0xFF);
 	}
+	
+	/**
+	 * byte型转成int型
+	 * 
+	 * @param b
+	 * @return
+	 */
+	public static String toInt16(byte b) {
+		return Integer.toHexString((int)(b & 0xFF));
+	}
+	
+	
 	/**
 	 * 得到byte的低4位
 	 * @param b　

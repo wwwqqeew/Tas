@@ -23,7 +23,7 @@ public class HashMapUtil {
 	 *显示所有
 	 * @param hashMap
 	 */
-	public void showAll(HashMap hashMap) {
+	public static void showAll(HashMap hashMap) {
 		if (hashMap != null) {
 			Iterator iter = hashMap.entrySet().iterator();  
 	        while (iter.hasNext()) {  
